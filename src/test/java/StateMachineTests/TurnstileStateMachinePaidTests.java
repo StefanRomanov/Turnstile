@@ -1,6 +1,6 @@
 package StateMachineTests;
 
-import domain.TurnstileState;
+import domain.svm.TurnstileState;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

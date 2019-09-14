@@ -1,5 +1,7 @@
 import domain.Turnstile;
 
+import java.util.Hashtable;
+
 public class Main {
     public static void main(String[] args) {
         Turnstile turnstile = new Turnstile();
@@ -18,5 +20,7 @@ public class Main {
         System.out.println(turnstile.getState());
         turnstile.key();
         System.out.println(turnstile.getState());
+
+
     }
 }
