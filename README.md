@@ -4,7 +4,7 @@
 
 ## General information
 
-The turnstile can be in three states : Locked, Paid and Open
+The turnstile can be in three states : Locked, Paid and Open.
 The Turnstile object is initialized in Locked state by default and exposes three methods: 
 - boolean putCoin(): attempts insertion of a coin.
 - boolean canPass(): attempts passing through the gate.
